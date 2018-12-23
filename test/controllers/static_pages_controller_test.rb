@@ -35,4 +35,10 @@ end
     assert_select "title", "Contact | #{@base_title}"
   end
 
+  test "should get special" do
+    get static_pages_special_url
+    assert_response :success
+    assert_select "title", "Special | #{@base_title}"
+  end
+
 end
