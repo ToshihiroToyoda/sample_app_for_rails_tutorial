@@ -13,6 +13,7 @@
 !/log/.keep
 !/tmp/.keep
 .bash_history
+.guard_history
 
 # Ignore uploaded files in development
 /storage/*
@@ -28,3 +29,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Ignore Spring files.
+/spring/*.pid
