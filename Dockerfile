@@ -1,6 +1,6 @@
 FROM ruby:2.5.3
 
-ENV HOME /APP_NAME
+ENV HOME /sample_app_for_rails_tutorial
 WORKDIR $HOME
 
 ADD Gemfile      $HOME/Gemfile
