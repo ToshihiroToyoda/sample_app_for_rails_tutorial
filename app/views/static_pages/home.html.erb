@@ -1,7 +1,11 @@
-<% provide(:title, "Home") %>
 <h1>Sample App</h1>
 <p>
   This is the home page for the
   <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
-  sample application.
+  sample application.<br>
+  <br>
+  <%= link_to "home page", static_pages_home_url %><br>
+  <%= link_to "about page", static_pages_about_url %><br>
+  <%= link_to "contact page", static_pages_contact_url %><br>
+  <%= link_to "help page", static_pages_help_url %><br>
 </p>
