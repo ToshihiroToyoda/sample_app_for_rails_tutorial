@@ -53,6 +53,10 @@ img {
 
 /* header */
 
+header ul li {
+  margin-left: 8px;
+}
+
 #logo {
   float: none;
   margin-right: 10px;
@@ -72,7 +76,7 @@ img {
 /* footer */
 
 footer {
-  margin-top: 45px;
+  margin-top: 20px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
